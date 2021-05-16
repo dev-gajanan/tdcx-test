@@ -127,6 +127,10 @@ code {
 	.center-mob {
 		text-align: center;
 	}
+	.center-mob .btn{
+		width: 88%;
+		margin:0
+	}
 	.search-input {
 		margin: 10px 0;
 		width: 80%;
