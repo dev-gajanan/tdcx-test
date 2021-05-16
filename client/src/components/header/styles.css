@@ -1,0 +1,45 @@
+.navbar {
+	display: flex;
+	width: 100%;
+	height: 55px;
+	align-items: center;
+	background-color: #fff;
+	filter: drop-shadow(0 0 4px #ccc);
+	z-index: 9999;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.navbar-left {
+    position: absolute;
+}
+.brand {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  font-size: 15px;
+}
+.navbar-left .brand .logo {
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 7px;
+}
+.navbar-left .brand .name {
+  position: absolute;
+  line-height: 55px;
+  margin-top: -1px;
+  margin-left: 10px;
+  width: 200px;
+}
+.collapse { }
+.nav-right {
+    float: right;
+}
+.nav-right .nav-link{
+  float: left;
+  display: inline-flex;
+}
+.nav-right .nav-link a{
+  text-decoration: none;
+  color: #333;
+}

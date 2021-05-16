@@ -1,0 +1,36 @@
+.search-input {
+    width: 300px;
+    border-radius: 7px;
+    background-color: #d4dce4;
+}
+.btn{
+    display: inline-block;
+    margin-left: 10px;
+}
+.no-pad {
+    margin-left: 0 !important;
+}
+.flat-btn {
+    background-color: #fff;
+    cursor: pointer;
+    border:none;
+    margin:0 2px;
+    
+}
+.flat-btn .material-icons{
+    font-size: 16px;
+}
+.flat-btn:focus{
+    outline: none !important;
+}
+
+.card-centered{
+    background-color: #fff;
+    border-radius: 7px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}

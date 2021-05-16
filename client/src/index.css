@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color:#eaeaea ;
+}
+
+code {
+  	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app{ 
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.form-group{
+	margin-bottom: 15px;
+}
+.input-style{
+	height: 35px;
+	width: 95%;
+	padding:1px 2.5%;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	background-color: #eff2f5;
+}
+.input-style:focus{
+  	outline: none !important;
+}
+.btn{
+	height: 35px;
+	width: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: block;
+	border: none;
+	background-color: #f0f2f5;
+	color: #333;
+	border-radius: 4px;
+}
+.btn-primary{
+	background-color: #1976d2;
+	color: #fff;
+}
+.btn:focus{
+	outline: none !important;
+}
+.btn-expand{
+  	width: 100%;
+}
+.title{
+	color: #444;
+	margin: 5px 0 20px;
+}
+.section{
+	width: 100%;
+	margin-top: 50px;
+	padding: 30px 0;
+}
+.container {
+	width: 80%;
+	margin: 0 auto
+}
+.row{
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+.col-3{
+	width: 32%;
+	float: left;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+}
+
+.clear {
+    clear: both;
+}
+.clear:after, .clear:before {
+	display: table;
+	content: " ";
+}
+.clear:after {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.text-gray{
+	color: #999;
+	cursor: pointer;
+}
+.text-light-gray{
+	color: #eee;
+}
+
+@media screen and (max-width:668px) {
+	.container {
+		width: 95%;
+	}
+	.section{
+		padding:15px 0;
+	}
+	.section .container{
+		width: 100%;
+	}
+	.col-3 {
+		width: 100%;
+		float: none;
+		padding: 0 !important;
+		margin-bottom: 5px;
+	}
+	.col-3 div, div{
+		border-radius: unset !important;
+	}
+	.left, .right {
+		float: none;
+	}
+	.center-mob {
+		text-align: center;
+	}
+	.search-input {
+		margin: 10px 0;
+		width: 80%;
+	}
+	.btn {
+		width: 88%;
+		margin:0;
+	}
+	ul li label.left{
+		position: absolute;
+		width: 75%;
+	}
+	ul li div.right{
+		float: right;
+	}
+}
